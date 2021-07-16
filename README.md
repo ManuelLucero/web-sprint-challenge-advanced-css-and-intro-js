@@ -23,10 +23,23 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+    Accessibility is a quality the of UX (User-Experience) that can be defined as that which is acheived when a developer builds their solution in such a way as to facilitate an experience comparable to the ideal use-case for the wide-variety of different individuals and devices that may use that solution in actuality. E.g., a blind individual using a screen reader to experience a website, or the sound in a game being optimized for those who utilize hearing aids.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    A) Use semantic html (elements/tags and properties that are specific and indicative of function as opposed to a multitude of generic frames and containers);
+    B) Ensure that alt properties of the <img> tag are descriptive and complete;
+    C) Take care to mind the smaller things like color choice, ensuring that the logic is sound enough that certain html elements can be easily interacted with or navigated using a keyboard alone, and structuring your site with proper/descriptive headings and link text.
+
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable is a container or symbolic representation for a specified value or data-structure with a unique identifier that is declared at the time it's given something to hold or represent.
+
 4. What is the purpose of using functions in code?
+    Functions are the way to direct a processor to perform any number of logical operations upon any number of given inputs within it's designed parameters. In code, this is a, needless to say, fundamental necessity.
+
 5. How do you access a key inside of an object inside of an array?
+    The most common method to access a key within an object that is inside of an array is the bracket-dot notation method: array[objectIndex].key;
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
