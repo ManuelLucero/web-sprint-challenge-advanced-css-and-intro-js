@@ -142,13 +142,23 @@ button:hover{
         margin: 0;
         justify-content: center;
     }
+
+    nav span{
+        border-left:2px solid #626262;
+        height: 2rem;
+    }
+
+    nav a{
+        font-size: 1.5rem;
+    }
     
     nav{
-        width:100vw;
+        height: auto;
+        width:50vw;
         display:flex;
         justify-content:space-evenly;
-        margin-top:5%;
-        margin-bottom: 5%;
+        align-items: center;
+        margin: 5%;
     }
 
     .title-container div{
@@ -158,7 +168,55 @@ button:hover{
         padding: 0;
         font-weight: 600;
     }
+
+    .title-container h1 {
+        font-size: 4rem;
+    }
+    .title-container hr {
+        width: 100vw;
+        border: 1.5px solid lightgray;
+        background-color: lightgray;
+        margin-top: 1.5rem;
+    }
+
     .title-container div:hover {	
         opacity: 1;	
-    }	
+    }
+
+    .artists-container{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width:100vw;
+        margin:0 auto;
+    }
+    .artist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:60%;
+        height: auto;
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    .artist a{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .artist img{
+        width:70%;
+        height: 70%;
+        margin-bottom: 1.5rem;
+        margin-top: 2.5rem;
+    }
+    .artist .bio {
+        width: 63vw;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    #turner {
+        margin-bottom: 7rem;
+    }
 }
